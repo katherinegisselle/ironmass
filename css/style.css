@@ -1,0 +1,323 @@
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #333;
+}
+header{
+	
+	background-color: #252525;
+	padding: 20px 0;
+}
+#sec-slides{
+	background-image: url(../img/slide-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+	height: 600px;
+	
+	
+		
+	
+}
+#sec-slides h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	
+
+}
+.barra{
+	background-color: #F54F15;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+	
+	
+}
+
+#sec-slides h1{
+	font-size: 60px;
+	font-weight: 700;
+	
+	
+}
+
+.btn-naranja{
+	background-color: #F54F15;
+	color: #fff;
+	border-radius: 0;
+	border: 0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	font-weight: 600;
+	margin-top: 40px;
+		
+}
+.btn-naranja:hover{
+	background-color: #252525;
+	color: #fff;
+	
+	
+}
+.barra-izquierda{
+	display: inline-block;
+	
+	
+}
+
+.espaciado{
+	padding: 100px 0;
+	
+}
+
+.titulo{
+	font-size: 70px;
+	font-weight: 700px;
+	
+}
+
+#sec-amanda h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	
+	
+}
+
+p{
+	color: #777;
+	
+}
+
+.firma-amanda{
+	color: #F54F15;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 700;
+	
+	
+}
+
+#sec-clases{
+	background-color: #f3f3f3;
+		
+}
+
+#sec-clases .titulo{
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+#sec-clases h3{
+	color: #f54f15;
+	
+	
+}
+
+
+#sec-coaches{
+	background-image: url(../img/bg-coaches.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	}
+
+#coaches{
+	background-image: url(../img/bg-coaches.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+	
+#sec-coaches .barra{
+	background-color: #FFFFFF;
+	
+}
+#sec-coaches .titulo{
+	color: #FFFFFF;
+	text-align: center;
+	
+	
+}
+
+.cuadro-blanco{
+	background-color: #FFFFFF;
+	padding: 30px;
+	text-align: center;
+	
+	
+}
+
+.cuadro-blanco{
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 25px;
+	margin-bottom: 0;
+}
+
+.cuadro-blanco h4{
+	color: #f54f15;
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 0
+		
+		
+}
+
+#sec-clases .padre,
+#sec-clases .info-clase{
+	position: relative;
+	
+	
+}
+
+#sec-clases .hijo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(245,79,21,0.80);
+	padding: 15px 25px 0;
+	color: #fff;
+	
+}
+
+#sec-clases .hijo h3{
+	color: #fff;	
+}
+
+#sec-clases .info-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(245,79,21,0.80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition:  all ease-in-out 0.5s;
+	
+}
+
+#sec-clases .info-texto h3{
+	color: #fff;
+	font-weight: 600;	
+}
+
+#sec-clases .info-clase:hover .info-texto{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+	
+	
+}
+
+#sec-clases .overlay{
+	position: relative;
+	
+}
+
+#sec-clases .bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(245,79,21,1);
+	top: 0;
+	left:0;
+	z-index: 1;
+	
+	
+	
+}
+
+#sec-clases .titulo-overlay h3{
+	color: #fff;
+	font-weight: 600;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 10% 0;
+	text-align: center;
+	
+}
+
+footer h3{
+	color: #fff;
+	
+}
+
+footer h3 span{
+	color: #f54f15;
+		
+}
+
+.redes{
+	margin-top: 45px 0;
+	
+}
+
+.redes li{
+	display: inline-block;
+	
+	
+}
+
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 15px 0 15px 0;
+	color: #fff;
+	text-decoration: none;
+	transition: all ease 0.3s;
+
+}
+
+.redes a:hover{
+	background-color: #fff;
+	color: #252525;
+	transition: all ease 0.3s;
+	
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+	
+}
+
+footer p a:hover{
+	color: #f54f15;
+	
+}
+
+
+
+
+
+
+
+
+
+
